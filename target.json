@@ -1,0 +1,18 @@
+{
+    "include": [
+        {
+            "keyboard": "split_us40",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=-DINIT_EE_HANDS_LEFT",
+            "name": "split_us40_vial_left"
+        },
+        {
+            "keyboard": "split_us40",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=-DINIT_EE_HANDS_RIGHT",
+            "name": "split_us40_vial_right"
+        }
+    ]
+}
